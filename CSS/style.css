@@ -144,14 +144,10 @@ body {
   line-height: 1.5;
 }
 
-a {
+.description a {
   color: var(--text-color);
   text-decoration: none;
-  border-bottom: 0.07em solid var(--colors-switch);
-}
-
-a:hover {
-  color: var(--colors-switch);
+  border-bottom: 0.07em solid var(--text-color);
 }
 
 #modalOverlay,
@@ -221,7 +217,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   transition: 0.4s;
   border-radius: 1.5em;
 }
@@ -239,7 +235,7 @@ a:hover {
 }
 
 input:checked+.slider {
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
 }
 
 input:checked+.slider:before {

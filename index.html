@@ -66,7 +66,7 @@
         </style>
     </div>
     <div class="logo">
-        <img src="Images/logo.svg" width="120" height="80">
+        <a href="/index"> <img src="Images/logo.svg" width="120" height="80"></a>
         <div id="appContainer">
             <label class="switch">
                 <br><input type="checkbox" id="themeToggle">
@@ -76,11 +76,10 @@
                 <h2>Colors of the Day</h2>
             </div>
             <p id="currentDate" hidden></p>
-            <p class="description">Challenge! Use today's colors in your design. <br>Tag #upforcolors on
-                    <a href="https://discord.gg/AHDfnppM2N">Discord.</a></p>
+            <p class="description">Challenge! Use today's colors in your design. <br> Share your work <a href="/index">here</a></p><br>
             <form autocomplete="off" method="post" action="">
                 <input autocomplete="false" name="hidden" id="datePicker" onchange="changeDate(this.value)">
-            </form>
+            </form><br>
             <div id="colorsContainer">
                 <div class="colorBox" id="primaryColor">
                     <div class="colorContent">
